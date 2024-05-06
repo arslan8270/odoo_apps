@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="website_timeline_snippest_1" inherit_id="website.assets_frontend" name="website fugiat Assets">
+            <xpath expr="." position="inside">
+                <link href="/website_timeline_snippest/static/src/css/website_timeline_snippest.css" rel="stylesheet" type="text/css" />
+                <script src="/website_timeline_snippest/static/src/js/website_timeline_snippest.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>

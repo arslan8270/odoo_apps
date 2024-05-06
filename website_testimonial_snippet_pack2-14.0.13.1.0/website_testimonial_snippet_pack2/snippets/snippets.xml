@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="snippet_testimonial_layout_1" name="Style 1">
+    <section class="snippet_testimonial pack2_style_1">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 m15 text-center">
+            <h2>Testimonial Style 1</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="testimonial_pack2 owl_style_3 owl-carousel owl-theme"
+            data-item-show="1" data-slidespeed="3000" data-autoplay="true">
+            <div class="testimonial_content pack2_style_1 card">
+              <div class="testimonial_desc">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis
+                  nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis
+                  massa eget, ullamcorper diam. Nunc sit amet felis eget arcu
+                  congue dictum.</p>
+              </div>
+              <div class="testimonial_author">
+                <div class="testimonial_pic">
+                  <img src="/website_testimonial_snippet/static/src/images/avatar.png" />
+                </div>
+                <div class="testimonial_title">
+                  <h3>Jessica</h3>
+                </div>
+                <div class="testimonial_post">
+                  <small>- Archietect</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="snippet_testimonial_layout_2" name="Style 2">
+    <section class="snippet_testimonial pack2_style_2">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 m15 text-center">
+            <h2>Testimonial Style 2</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="testimonial_pack2 owl_style_5 owl-carousel owl-theme"
+            data-item-show="3" data-slidespeed="3000" data-autoplay="true">
+            <div class="testimonial_content pack2_style_2 card">
+              <div class="testimonial_author">
+                <div class="testimonial_pic">
+                  <img src="/website_testimonial_snippet/static/src/images/avatar.png" />
+                </div>
+                <div class="testimonial_title">
+                  <h3>Jessica</h3>
+                </div>
+                <div class="testimonial_post">
+                  <small>- Archietect</small>
+                </div>
+              </div>
+              <div class="testimonial_desc">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis
+                  nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis
+                  massa eget, ullamcorper diam. Nunc sit amet felis eget arcu
+                  congue dictum.</p>
+              </div>
+              <div class="testimonial_rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+            </div>
+            <div class="testimonial_content pack2_style_2 card">
+              <div class="testimonial_author">
+                <div class="testimonial_pic">
+                  <img src="/website_testimonial_snippet/static/src/images/avatar.png" />
+                </div>
+                <div class="testimonial_title">
+                  <h3>Jessica</h3>
+                </div>
+                <div class="testimonial_post">
+                  <small>- Archietect</small>
+                </div>
+              </div>
+              <div class="testimonial_desc">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis
+                  nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis
+                  massa eget, ullamcorper diam. Nunc sit amet felis eget arcu
+                  congue dictum.</p>
+              </div>
+              <div class="testimonial_rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+            </div>
+            <div class="testimonial_content pack2_style_2 card">
+              <div class="testimonial_author">
+                <div class="testimonial_pic">
+                  <img src="/website_testimonial_snippet/static/src/images/avatar.png" />
+                </div>
+                <div class="testimonial_title">
+                  <h3>Jessica</h3>
+                </div>
+                <div class="testimonial_post">
+                  <small>- Archietect</small>
+                </div>
+              </div>
+              <div class="testimonial_desc">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis
+                  nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis
+                  massa eget, ullamcorper diam. Nunc sit amet felis eget arcu
+                  congue dictum.</p>
+              </div>
+              <div class="testimonial_rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="snippet_testimonial_layout_3" name="Style 3">
+    <section class="snippet_testimonial pack2_style_3">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 m15 text-center">
+            <h2>Testimonial Style 3</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="testimonial_pack2 owl_style_6 owl-carousel owl-theme"
+            data-item-show="2" data-slidespeed="3000" data-autoplay="true">
+            <div class="testimonial_content pack2_style_3 card">
+              <div class="testimonial_desc">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis
+                  nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis
+                  massa eget, ullamcorper diam. Nunc sit amet felis eget arcu
+                  congue dictum.</p>
+              </div>
+              <div class="testimonial_author">
+                <div class="testimonial_pic">
+                  <img src="/website_testimonial_snippet/static/src/images/avatar.png" />
+                </div>
+                <div class="testimonial_title">
+                  <h3>Jessica</h3>
+                </div>
+                <div class="testimonial_post">
+                  <small>- Archietect</small>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial_content pack2_style_3 card">
+              <div class="testimonial_desc">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis
+                  nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis
+                  massa eget, ullamcorper diam. Nunc sit amet felis eget arcu
+                  congue dictum.</p>
+              </div>
+              <div class="testimonial_author">
+                <div class="testimonial_pic">
+                  <img src="/website_testimonial_snippet/static/src/images/avatar.png" />
+                </div>
+                <div class="testimonial_title">
+                  <h3>Jessica</h3>
+                </div>
+                <div class="testimonial_post">
+                  <small>- Archietect</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </template>
+</odoo>

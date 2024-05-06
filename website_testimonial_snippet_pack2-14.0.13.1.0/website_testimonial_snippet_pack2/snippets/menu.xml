@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+	<template id="snippet_testimonial_bar_pack2" inherit_id="website.snippets"
+    name="Testimonials">
+		<xpath expr="//div[@id='snippet_structure']" position="after">
+			<div id="snippet_testimonial" class="o_panel">
+				<div class="o_panel_header text-center">Testimonials carousel with avatars and reviews</div>
+				<div class="o_panel_body" />
+			</div>
+		</xpath>
+	</template>
+
+	<template id="snippet_testimonial_style_1" inherit_id="snippet_testimonial_bar_pack2"
+    name="Style 1">
+	  <xpath expr="//div[@id='snippet_testimonial']/div[hasclass('o_panel_body')]"
+      position="inside">
+	    <t t-snippet="website_testimonial_snippet_pack2.snippet_testimonial_layout_1"
+	       t-thumbnail="/website_testimonial_snippet_pack2/static/src/images/stl-1.png"/>
+	    <t t-snippet="website_testimonial_snippet_pack2.snippet_testimonial_layout_2"
+	       t-thumbnail="/website_testimonial_snippet_pack2/static/src/images/stl-2.png"/>
+	    <t t-snippet="website_testimonial_snippet_pack2.snippet_testimonial_layout_3"
+	       t-thumbnail="/website_testimonial_snippet_pack2/static/src/images/stl-3.png"/>
+	  </xpath>
+	</template>
+
+</odoo>

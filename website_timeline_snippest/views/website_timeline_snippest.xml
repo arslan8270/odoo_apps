@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="website_timeline_snippest_home" inherit_id="website.homepage" name="snippest Homepage">
+            <xpath expr="//div[@id='wrap']" position="inside">
+                <div class="oe_structure" />
+            </xpath>
+        </template>
+        <template id="s_my_timeline1" name="My timeline1">
+            <div class="oe_structure" />
+            <section id="kanak1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page-header">
+                                <h1>Timeline 1</h1>
+                            </div>
+                            <div style="display:inline-block;width:100%;overflow-y:auto;">
+                                <ul class="timeline timeline-horizontal">
+                                    <li class="timeline-item">
+                                        <div class="timeline-badge primary">
+                                            <i class="fa fa-star" ></i>
+                                        </div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Mussum ipsum cacilds 1</h4>
+                                                <p><small class="text-muted">
+                                                        <i class="glyphicon glyphicon-time">
+                                                        </i> 11 hours ago via Twitter</small>
+                                                </p>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis faiz elementum girarzis, nisi eros gostis.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <div class="timeline-badge success">
+                                            <i class="fa fa-star" ></i>
+                                        </div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Mussum ipsum cacilds 2</h4>
+                                                <p><small class="text-muted">
+                                                        <i class="glyphicon glyphicon-time"></i>
+                                                         11 hours ago via Twitter</small>
+                                                </p>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis faiz elementum girarzis, nisi eros gostis</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <div class="timeline-badge info">
+                                            <i class="fa fa-star" ></i>
+                                        </div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Mussum ipsum cacilds 3</h4>
+                                                <p>
+                                                    <small class="text-muted">
+                                                            <i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small>
+                                                </p>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis faiz elementum girarzis, nisi eros gostis</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <div class="timeline-badge danger">
+                                            <i class="fa fa-star" ></i>
+                                        </div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Mussum ipsum cacilds 4</h4>
+                                                <p><small class="text-muted">
+                                                        <i class="glyphicon glyphicon-time"></i>
+                                                         11 hours ago via Twitter</small>
+                                                </p>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis faiz elementum girarzis, nisi eros gostis</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <div class="timeline-badge warning">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Mussum ipsum cacilds 5</h4>
+                                                <p>
+                                                    <small class="text-muted">
+                                                            <i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small>
+                                                </p>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis faiz elementum girarzis, nisi eros gostis</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <div class="timeline-badge">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Mussum ipsum cacilds 6</h4>
+                                                <p>
+                                                    <small class="text-muted">
+                                                            <i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small>
+                                                </p>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis faiz elementum girarzis, nisi eros gostis</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <template id="s_my_timeline2" name="My timeline2">
+            <div class="oe_structure" />
+            <section id="kanak2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page-header">
+                                <h1>Timeline 2</h1>
+                            </div>
+                            <ul class="timeline">
+                                <li class="timeline-item">
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds 1</h4>
+                                            <p>
+                                                <small class="text-muted">
+                                                    <i class="glyphicon glyphicon-time"></i>
+                                                     11 hours ago via Twitter</small>
+                                            </p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros gostis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-item">
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds 2</h4>
+                                            <p>
+                                                <small class="text-muted">
+                                                        <i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros gostis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-item">
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds 3</h4>
+                                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros gostis.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-item">
+                                    <div class="timeline-badge">
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds 4</h4>
+                                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros gostis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <template id="s_my_timeline3" name="My timeline3">
+            <div class="oe_structure" />
+            <section id="kanak3">
+                <div class="container">
+                    <div class="page-header text-center">
+                        <h1 id="timeline">Timeline 3</h1>
+                    </div>
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-badge primary">
+                                <a>
+                                </a>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <img alt="" src="/website_timeline_snippest/static/src/img/qq/r3.jpg" class="img-thumbnail" />
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
+                                <div class="timeline-footer">
+                                    <a><i class=""></i></a>
+                                    <a><i class=""></i></a>
+                                    <a class="pull-right">devang rana</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge primary">
+                                <a>
+                                </a>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <img alt="" src="/website_timeline_snippest/static/src/img/qq/r1.jpg" class="img-thumbnail" />
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
+                                <div class="timeline-footer">
+                                    <a><i class=""></i></a>
+                                    <a><i class=""></i></a>
+                                    <a class="pull-right">devang rana</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-badge primary">
+                                <a>
+                                </a>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <img alt="" src="/website_timeline_snippest/static/src/img/qq/r3.jpg" class="img-thumbnail" />
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
+                                <div class="timeline-footer">
+                                    <a><i class=""></i></a>
+                                    <a><i class=""></i></a>
+                                    <a class="pull-right">devang rana</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </template>
+        <template id="s_my_timeline4" name="My timeline4">
+            <div class="oe_structure" />
+            <section id="kanak4">
+                <div class="timeline-container">
+                    <h1 class="project-name">Timeline 4</h1>
+                    <div id="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fa fa-envelope-o " ></i>
+                            </div>
+                            <div class="timeline-content ">
+                                <h2>The email was sent to the user</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                                </p>
+                                <span class="time-stamp">Thu Jan - 26 - 2017 01:54</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <div class="timeline-content right">
+                                <h2>The email was delivered to the user</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur.
+                                </p>
+                                <span class="time-stamp">Thu Jan - 26 - 2017 01:54</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon success">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h2>Quick Trial generation finished</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                                </p>
+                                <span class="time-stamp">Thu Jan - 26 - 2017 01:54</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fa fa-check-square-o" ></i>
+                            </div>
+                            <div class="timeline-content right">
+                                <h2>Marketo Syncronization</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                                </p>
+                                <span class="time-stamp">Thu Jan - 26 - 2017 01:54</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fa fa-check-square-o" ></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h2>Application Licenses</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                                </p>
+                                <span class="time-stamp">Thu Jan - 26 - 2017 01:54</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item right">
+                            <div class="timeline-icon">
+                                <i class="fa fa-key"></i>
+                            </div>
+                            <div class="timeline-content right">
+                                <h2>Application Download Key</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                                </p>
+                                <span class="time-stamp">Thu Jan - 26 - 2017 01:54</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon success">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h2>Quick Trial Generation Started</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                                </p>
+                                <span class="time-stamp">Thu Jan - 26 - 2017 01:54</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item right">
+                            <div class="timeline-icon success">
+                                <i class="fa fa-key"> </i>
+                            </div>
+                            <div class="timeline-content right">
+                                <h2>Application Download Key</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                                </p>
+                                <span class="time-stamp">Thu Jan - 26 - 2017 01:54</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <template id="s_my_timeline5" name="My timeline5">
+            <div class="oe_structure" />
+            <section id="kanak5">
+                <ul class="timeline">
+                    <li>
+                        <h1 class="project-name">Timeline 5</h1>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Freelancer</span>
+                                <span class="time-wrapper"><span class="time">2013 - present</span></span>
+                            </div>
+                            <div class="desc">My current employment. Way better than the position before!</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">Apple Inc.</span>
+                                <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                            </div>
+                            <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Harvard University</span>
+                                <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+                            </div>
+                            <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </template>
+        <template id="s_my_timeline6" name="My timeline6">
+            <div class="oe_structure" />
+            <section id="kanak6">
+                <div class="container">
+                    <div class="row">
+                        <div class="[ col-xs-12 col-sm-offset-2 col-sm-8 main_kanak6 ]">
+                            <h1 class="project-name">Timeline 6</h1>
+                            <ul class="event-list">
+                                <li>
+                                    <time datetime="2014-07-20">
+                                        <span class="day">28</span>
+                                        <span class="month">Jan</span>
+                                        <span class="year">2017</span>
+                                        <span class="time">ALL DAY</span>
+                                    </time>
+                                    <img alt="Independence Day" src="/website_timeline_snippest/static/src/img/qq/bday1.jpg" />
+                                    <div class="info">
+                                        <h2 class="title">My best friend's birthday</h2>
+                                        <p class="desc">Holiday time</p>
+                                    </div>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
+                                            <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+                                            <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <time datetime="2014-07-20 0000">
+                                        <span class="day">8</span>
+                                        <span class="month">Jul</span>
+                                        <span class="year">2014</span>
+                                        <span class="time">12:00 AM</span>
+                                    </time>
+                                    <div class="info">
+                                        <h2 class="title">One Piece Unlimited World Red</h2>
+                                        <p class="desc">PS Vita</p>
+                                        <ul>
+                                            <li style="width:50%;"><a href="#website"><span class="fa fa-globe"></span> Website</a></li>
+                                            <li style="width:50%;"><span class="fa fa-money"></span> $39.99</li>
+                                        </ul>
+                                    </div>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
+                                            <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+                                            <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <time datetime="2014-07-20 2000">
+                                        <span class="day">20</span>
+                                        <span class="month">Jan</span>
+                                        <span class="year">2014</span>
+                                        <span class="time">8:00 PM</span>
+                                    </time>
+                                    <img alt="Independence Day" src="/website_timeline_snippest/static/src/img/qq/bday1.jpg" />
+                                    <div class="info">
+                                        <h2 class="title">Mouse's 24th Birthday!</h2>
+                                        <p class="desc">Bar Hopping</p>
+                                        <ul>
+                                            <li style="width:33%;">1 <span class="glyphicon glyphicon-ok"></span></li>
+                                            <li style="width:34%;">3 <span class="fa fa-question"></span></li>
+                                            <li style="width:33%;">103 <span class="fa fa-envelope"></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
+                                            <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+                                            <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <time datetime="2014-07-31 1600">
+                                        <span class="day">31</span>
+                                        <span class="month">Jan</span>
+                                        <span class="year">2014</span>
+                                        <span class="time">4:00 PM</span>
+                                    </time>
+                                    <img alt="Independence Day" src="/website_timeline_snippest/static/src/img/qq/tour1.jpg" />
+                                    <div class="info">
+                                        <h2 class="title">Disney Junior Live On Tour!</h2>
+                                        <p class="desc"> Pirate and Princess Adventure</p>
+                                        <ul>
+                                            <li style="width:33%;">$49.99 <span class="fa fa-male"></span></li>
+                                            <li style="width:34%;">$29.99 <span class="fa fa-child"></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
+                                            <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+                                            <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <template id="s_my_timeline7" name="My timeline7">
+            <div class="oe_structure" />
+            <section id="kanak7">
+                <div class="hello-bar">
+                <div class="container">
+                        <h1><center>Timeline 7 </center></h1>
+                    </div>
+                </div>
+                <div class="row kanak-all7">
+                    <div class="timeline all-kanak">
+                        <div class="line">
+                            <div class="start">
+                                2017
+                            </div>
+                            <div class="end">
+                                2018
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="icon">
+                                <i class="fa fa-key"> </i>
+                            </div>
+                            <div class="date">
+                                January
+                            </div>
+                            <div class="details">
+                                Spent my first holiday in Florida.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus.
+                            </div>
+                        </div>
+                        <div class="event event-right">
+                            <div class="icon">
+                                <i class="fa fa-star" ></i>
+                            </div>
+                            <div class="date">
+                                February
+                            </div>
+                            <div class="details">
+                                Spent my first holiday in Florida.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus.
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="icon">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="date">
+                                March
+                            </div>
+                            <div class="details">
+                                Spent my first holiday in Florida.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus.
+                            </div>
+                        </div>
+                        <div class="event event-right">
+                            <div class="icon">
+                                <i class="fa fa-key"> </i>
+                            </div>
+                            <div class="date">
+                                April
+                            </div>
+                            <div class="details">
+                                Spent my first holiday in Florida.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus.
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="icon">
+                                <i class="fa fa-key"> </i>
+                            </div>
+                            <div class="date">
+                                May
+                            </div>
+                            <div class="details">
+                                Spent my first holiday in Florida.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus.
+                            </div>
+                        </div>
+                        <div class="event event-right">
+                            <div class="icon">
+                                <i class="fa fa-star" ></i>
+                            </div>
+                            <div class="date">
+                                June
+                            </div>
+                            <div class="details">
+                                Spent my first holiday in Florida.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus.
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="icon">
+                                <i class="fa fa-star" ></i>
+                            </div>
+                            <div class="date">
+                                July
+                            </div>
+                            <div class="details">
+                                Spent my first holiday in Florida.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus.
+                            </div>
+                        </div>
+                        <div class="event event-right">
+                            <div class="icon">
+                                <i class="fa fa-key"> </i>
+                            </div>
+                            <div class="date">
+                                August
+                            </div>
+                            <div class="details">
+                                Spent my first holiday in Florida.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus.
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="icon">
+                                <i class="fa fa-key"> </i>
+                            </div>
+                            <div class="date">
+                                September
+                            </div>
+                            <div class="details">
+                                Spent my first holiday in Florida.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus.
+                            </div>
+                        </div>
+                        <div class="event event-right">
+                            <div class="icon">
+                                <i class="fa fa-star" ></i>
+                            </div>
+                            <div class="date">
+                                October
+                            </div>
+                            <div class="details">
+                                Spent my first holiday in Florida.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus.
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="icon">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="date">
+                                November
+                            </div>
+                            <div class="details">
+                                Spent my first holiday in Florida.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus.
+                            </div>
+                        </div>
+                        <div class="event event-right">
+                            <div class="icon">
+                                <i class="fa fa-key"> </i>
+                            </div>
+                            <div class="date">
+                                December
+                            </div>
+                            <div class="details">
+                                Spent my first holiday in Florida.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <template id="s_my_timeline8" name="My timeline8">
+            <div class="oe_structure" />
+            <section id="kanak8">
+                <div class='timeline kanak8-tm' id='top'>
+                    <h1 class='timeline-heading kanak8-head'>Timeline 8 </h1>
+                    <ul class='timeline-events'></ul>
+                    <li class='timeline-event kanak8-event' data-category=''>
+                        <div class='timeline-event-date kanak8-date'>January 27, 2017</div>
+                        <img src="/website_timeline_snippest/static/src/img/qq/cr1.jpg" class="img-thumbnail" />
+                        <div class='timeline-event-description kanak8-description'></div>
+                    </li>
+                    <li class='timeline-event kanak8-event' data-category='personal'>
+                        <div class='timeline-event-date kanak8-date'>January 27, 2017</div>
+                        <img src="/website_timeline_snippest/static/src/img/qq/cr2.jpg" class="img-thumbnail" />
+                        <div class='timeline-event-description kanak8-description'>I created a timeline.</div>
+                    </li>
+                    <li class='timeline-event kanak8-event' data-category='personal'>
+                        <div class='timeline-event-date kanak8-date'>January 27, 2017</div>
+                        <img src="/website_timeline_snippest/static/src/img/qq/cr3.jpg" class="img-thumbnail" />
+                        <div class='timeline-event-description kanak8-description'>I ate a bagel.
+                            <br/>A delicious bagel</div>
+                    </li>
+                    <li class='timeline-event kanak8-event' data-category='personal'>
+                        <div class='timeline-event-date kanak8-date'>January 27, 2017</div>
+                        <img src="/website_timeline_snippest/static/src/img/qq/cr4.jpg" class="img-thumbnail" />
+                        <div class='timeline-event-description kanak8-description'>Watched the Jetsons.</div>
+                    </li>
+                    <li class='timeline-event kanak8-event' data-category='coding'>
+                        <div class='timeline-event-date kanak8-date'>January 27, 2017</div>
+                        <img src="/website_timeline_snippest/static/src/img/qq/cr5.jpg" class="img-thumbnail" />
+                        <div class='timeline-event-description kanak8-description'>Coded a couple of things, but they were all glitchy.</div>
+                    </li>
+                    <li class='timeline-event kanak8-event' data-category='personal'>
+                        <div class='timeline-event-date kanak8-date'>January 27, 2017</div>
+                        <img src="/website_timeline_snippest/static/src/img/qq/cr1.jpg" class="img-thumbnail" />
+                        <div class='timeline-event-description kanak8-description'>You can use <em>html</em> too!</div>
+                    </li>
+                    <li class='timeline-event kanak8-event' data-category='swag'>
+                        <div class='timeline-event-date kanak8-date'>January 27, 2017</div>
+                        <img src="/website_timeline_snippest/static/src/img/qq/cr7.jpg" class="img-thumbnail" />
+                        <div class='timeline-event-description kanak8-description'>This is a longer entry, which is intended largely as a way of breaking the codepen does not let me use this word, but if the word I cannot use does not break then this thing is just stoooooopid. This is a responsive timeline, and it has the word responsive in it, so it must be cool! Yay for buzzwords!</div>
+                    </li>
+                    <li class='timeline-event kanak8-event' data-category='personal'>
+                        <div class='timeline-event-date kanak8-date'>January 27, 2017</div>
+                        <img src="/website_timeline_snippest/static/src/img/qq/cr5.jpg" class="img-thumbnail" />
+                        <div class='timeline-event-description kanak8-description'></div>
+                    </li>
+
+                    <li class='timeline-event kanak8-event' data-category='personal'>
+                        <div class='timeline-event-date kanak8-date'>January 27, 2017</div>
+                        <img src="/website_timeline_snippest/static/src/img/qq/cr2.jpg" class="img-thumbnail" />
+                        <div class='timeline-event-description kanak8-description'>Went on a romantic date to McDonald's.</div>
+                    </li>
+                    <li class='timeline-event kanak8-event' data-category='personal'>
+                        <div class='timeline-event-date kanak8-date'>January 27, 2017</div>
+                        <img src="/website_timeline_snippest/static/src/img/qq/cr1.jpg" class="img-thumbnail" />
+                        <div class='timeline-event-description kanak8-description'>Made out with a pineapple.</div>
+                    </li>
+                    <li class='timeline-event kanak8-event' data-category=''>
+                        <div class='timeline-event-date kanak8-date'>January 27, 2017</div>
+                        <img src="/website_timeline_snippest/static/src/img/qq/cr3.jpg" class="img-thumbnail" />
+                        <div class='timeline-event-description kanak8-description'></div>
+                    </li>
+                    <li class='timeline-event kanak8-event' data-category='personal'>
+                        <div class='timeline-event-date kanak8-date'>January 27, 2017</div>
+                        <img src="/website_timeline_snippest/static/src/img/qq/cr4.jpg" class="img-thumbnail" />
+                        <div class='timeline-event-description kanak8-description'>I'm born.</div>
+                    </li>
+                    <div class='timeline-top-link'>
+                        <a href='#top'><i class="fa fa-arrow-up" ></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <template id="s_my_timeline9" name="My timeline9">
+            <div class="oe_structure" />
+            <section id="kanak9">
+                <div id="tf-features">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2>Timeline <span class="highlight"><strong>9(Nine)</strong></span></h2>
+                            <h5><em>We design and build functional and beautiful websites</em></h5>
+                        </div>
+                    </div>
+                    <div id="feature" class="gray-bg">
+                        <div class="container">
+                            <div class="row" role="tabpanel">
+                                <div class="col-md-4 col-md-offset-1">
+                                    <ul class="features nav nav-pills nav-stacked" role="tablist">
+                                        <li role="presentation">
+                                            <a href="#f1" aria-controls="f1" role="tab" data-toggle="tab" class="active">
+                                                <span class="fa fa-desktop"></span> Internet Communication
+                                                <br/>
+                                                <small>sub title here</small>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#f2" aria-controls="f2" role="tab" data-toggle="tab">
+                                                <span class="fa fa-pencil"></span> Branding and Development
+                                                <br/><small>sub title here</small>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#f3" aria-controls="f3" role="tab" data-toggle="tab">
+                                                <span class="fa fa-space-shuttle"></span> Motion Graphics
+                                                <br/><small>sub title here</small>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#f4" aria-controls="f4" role="tab" data-toggle="tab">
+                                                <span class="fa fa-automobile"></span> Mobile Application
+                                                <br/><small>sub title here</small>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#f5" aria-controls="f5" role="tab" data-toggle="tab">
+                                                <span class="fa fa-institution"></span> Relaible Company Analysis
+                                                <br/><small>sub title here</small>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tab-content features-content">
+                                        <div role="tabpanel" class="tab-pane fade in active show" id="f1">
+                                            <h4 class="mt8">Internet Communication</h4>
+                                            <p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+                                            <img src="/website_timeline_snippest/static/src/img/qq/cr1.jpg" class="img-fluid" />
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="f2">
+                                            <h4 class="mt8">Branding and Development</h4>
+                                            <p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+                                            <img src="/website_timeline_snippest/static/src/img/qq/cr2.jpg" class="img-fluid" />
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="f3">
+                                            <h4 class="mt8">Motion Graphics</h4>
+                                            <p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+                                            <img src="/website_timeline_snippest/static/src/img/qq/cr3.jpg" class="img-fluid" />
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="f4">
+                                            <h4 class="mt8">Mobile Application</h4>
+                                            <p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+                                            <img src="/website_timeline_snippest/static/src/img/qq/cr4.jpg" class="img-fluid" />
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="f5">
+                                            <h4 class="mt8">Relaible Company Analysis</h4>
+                                            <p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+                                            <img src="/website_timeline_snippest/static/src/img/qq/cr5.jpg" class="img-fluid" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+         <!--            <div id="feature" class="gray-bg">
+                        <div class="container">
+                            <div class="row" role="tabpanel">
+                                <div class="col-md-4 col-md-offset-1">
+                                        <ul class="nav nav-tabs nav-tabs-vertical nav-tabs-left" role="navigation">
+                                            <li role="presentation" class="tab-pane fade show active">
+                                            <a href="#f1" aria-controls="f1" role="tab" data-toggle="tab">
+                                                <span class="fa fa-desktop"></span> Internet Communication
+                                                <br/>
+                                                <small>sub title here</small>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#f2" aria-controls="f2" role="tab" data-toggle="tab">
+                                                <span class="fa fa-pencil"></span> Branding and Development
+                                                <br/><small>sub title here</small>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#f3" aria-controls="f3" role="tab" data-toggle="tab">
+                                                <span class="fa fa-space-shuttle"></span> Motion Graphics
+                                                <br/><small>sub title here</small>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#f4" aria-controls="f4" role="tab" data-toggle="tab">
+                                                <span class="fa fa-automobile"></span> Mobile Application
+                                                <br/><small>sub title here</small>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#f5" aria-controls="f5" role="tab" data-toggle="tab">
+                                                <span class="fa fa-institution"></span> Relaible Company Analysis
+                                                <br/><small>sub title here</small>
+                                            </a>
+                                        </li>
+                                        </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tab-content features-content">
+                                        <div role="tabpanel" class="tab-pane fade in active" id="f1">
+                                            <h4>Internet Communication</h4>
+                                            <p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+                                            <img src="/website_timeline_snippest/static/src/img/qq/cr1.jpg" class="img-thumbnail" />
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="f2">
+                                            <h4>Branding and Development</h4>
+                                            <p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+                                            <img src="/website_timeline_snippest/static/src/img/qq/cr2.jpg" class="img-thumbnail" />
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="f3">
+                                            <h4>Motion Graphics</h4>
+                                            <p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+                                            <img src="/website_timeline_snippest/static/src/img/qq/cr3.jpg" class="img-thumbnail" />
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="f4">
+                                            <h4>Mobile Application</h4>
+                                            <p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+                                            <img src="/website_timeline_snippest/static/src/img/qq/cr4.jpg" class="img-thumbnail" />
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="f5">
+                                            <h4>Relaible Company Analysis</h4>
+                                            <p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
+                                            <img src="/website_timeline_snippest/static/src/img/qq/cr5.jpg" class="img-thumbnail" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+        </template>
+        <template id="s_my_timeline10" name="My timeline10">
+            <div class="oe_structure" />
+            <section id="kanak10">
+                <h1 class="main-heading">Timeline 10 </h1>
+                <div class="container kanak10-main kanak10-img1">
+                    <img src="/website_timeline_snippest/static/src/img/qq/cr1.jpg" class="img-thumbnail" />
+                    <div class="textbox kanak10-text">
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">Freelancer</span>
+                                <span class="time-wrapper"><span class="time">2013 - present</span></span>
+                            </div>
+                            <div class="desc">My current employment. Way better than the position before!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container kanak10-main kanak10-img2">
+                    <img src="/website_timeline_snippest/static/src/img/qq/cr2.jpg" class="img-thumbnail" />
+                    <div class="textbox kanak10-text">
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Apple Inc.</span>
+                                <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                            </div>
+                            <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container kanak10-main kanak10-img3">
+                    <img src="/website_timeline_snippest/static/src/img/qq/cr3.jpg" class="img-thumbnail" />
+                    <div class="textbox kanak10-text">
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">Freelancer</span>
+                                <span class="time-wrapper"><span class="time">2013 - present</span></span>
+                            </div>
+                            <div class="desc">My current employment. Way better than the position before!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container kanak10-main kanak10-img4">
+                    <img src="/website_timeline_snippest/static/src/img/qq/cr4.jpg" class="img-thumbnail" />
+                    <div class="textbox kanak10-text">
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Apple Inc.</span>
+                                <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                            </div>
+                            <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container kanak10-main kanak10-img5">
+                    <img src="/website_timeline_snippest/static/src/img/qq/cr7.jpg" class="img-thumbnail" />
+                    <div class="textbox kanak10-text">
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">Freelancer</span>
+                                <span class="time-wrapper"><span class="time">2013 - present</span></span>
+                            </div>
+                            <div class="desc">My current employment. Way better than the position before!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container kanak10-main kanak10-img6">
+                    <img src="/website_timeline_snippest/static/src/img/qq/cr8.jpg" class="img-thumbnail" />
+                    <div class="textbox kanak10-text">
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Apple Inc.</span>
+                                <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                            </div>
+                            <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+        <template id="snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']//div[@class='o_panel_body']" position="inside">
+                <t t-snippet="website_timeline_snippest.s_my_timeline1" t-thumbnail="/website_timeline_snippest/static/src/img/qq/cr1.jpg" />
+                <t t-snippet="website_timeline_snippest.s_my_timeline2" t-thumbnail="/website_timeline_snippest/static/src/img/qq/cr2.jpg" />
+                <t t-snippet="website_timeline_snippest.s_my_timeline3" t-thumbnail="/website_timeline_snippest/static/src/img/qq/cr3.jpg" />
+                <t t-snippet="website_timeline_snippest.s_my_timeline4" t-thumbnail="/website_timeline_snippest/static/src/img/qq/cr4.jpg" />
+                <t t-snippet="website_timeline_snippest.s_my_timeline5" t-thumbnail="/website_timeline_snippest/static/src/img/qq/cr5.jpg" />
+                <t t-snippet="website_timeline_snippest.s_my_timeline6" t-thumbnail="/website_timeline_snippest/static/src/img/qq/dubai6.jpg" />
+                <t t-snippet="website_timeline_snippest.s_my_timeline7" t-thumbnail="/website_timeline_snippest/static/src/img/qq/cr7.jpg" />
+                <t t-snippet="website_timeline_snippest.s_my_timeline8" t-thumbnail="/website_timeline_snippest/static/src/img/qq/tour1.jpg" />
+                <t t-snippet="website_timeline_snippest.s_my_timeline9" t-thumbnail="/website_timeline_snippest/static/src/img/qq/cr8.jpg" />
+                <t t-snippet="website_timeline_snippest.s_my_timeline10" t-thumbnail="/website_timeline_snippest/static/src/img/qq/sl26.jpg" />
+            </xpath>
+        </template>
+    </data>
+</odoo>
